@@ -35,10 +35,10 @@ window.onscroll = function(){
     // if(window.scrollY >= 350){
     //     login_page.classList.remove("active");
     // }
-    // login_page.classList.remove("active");
-    search_input.classList.remove("active");
-    // navbar.classList.remove('active');
-    // menu.classList.remove('fa-times');
+     search_input.classList.remove("active");
+    navbar.classList.remove('active');
+    menu.classList.remove('fa-times');
+    search_btn.classList.remove("fa-times");
 }
 
 // let main_video = document.querySelector(" .home video-container #video-slider");
