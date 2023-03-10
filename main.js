@@ -44,9 +44,7 @@ window.onscroll = function(){
 // let main_video = document.querySelector(" .home video-container #video-slider");
 let span_control = document.querySelectorAll(".vid-btn");
 
-setInterval(() => {
-  
-}, 1000);
+
 span_control.forEach((span)=>{
  
     span.addEventListener("click", function(e){
@@ -66,12 +64,9 @@ var swiper = new Swiper(".brand-container", {
         disableOnInteraction: false,
     },
     breakpoints: {
-      360:{
+      350:{
         slidesPerView:2
       },
-        450: {
-          slidesPerView: 2,
-        },
         768: {
           slidesPerView: 3,
         },
