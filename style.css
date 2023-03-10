@@ -697,6 +697,7 @@ font-size: 25px;
    
    .brand{
       padding: 50px 0px;
+      overflow-x: hidden;
    }
    .brand .brand-container{
     display: flex;
